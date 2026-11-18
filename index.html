@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricky Ramadhan, S.Kom. — Portfolio</title>
+  <meta name="description"
+    content="Website Portofolio Resmi Ricky Ramadhan, S.Kom. — Lulusan S1 Teknologi Informasi, Software Engineer, Web Developer, Quality Control, & Document Control / Management Representative." />
+
+  <!-- Google Fonts: Playfair Display (Serif) & Quicksand / Inter (Sans-serif) matching Jackson template -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Mobile Header Toggle -->
+  <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Buka Navigasi">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <div class="page-wrapper">
+    <!-- LEFT SIDEBAR (Jackson Style) -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <div class="author-profile">
+          <div class="author-img-wrap">
+            <img src="assets/images/ricky-profile.jpg" alt="Ricky Ramadhan, S.Kom." class="author-img" />
+          </div>
+          <h1 class="author-name"><a href="#home">Ricky Ramadhan, S.Kom.</a></h1>
+          <p class="author-role">
+            <span>SOFTWARE ENGINEER &amp; IT SPECIALIST</span> DI BOGOR, INDONESIA
+          </p>
+        </div>
+
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="#home" class="nav-link active">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#services" class="nav-link">SERVICES</a></li>
+            <li><a href="#skills" class="nav-link">SKILLS</a></li>
+            <li><a href="#education" class="nav-link">EDUCATION</a></li>
+            <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+            <li><a href="#work" class="nav-link">WORK</a></li>
+            <li><a href="#hobbies" class="nav-link">HOBBIES</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <div class="sidebar-social">
+            <a href="https://wa.me/62895346456400?text=Halo%20Ricky%20Ramadhan,%20saya%20melihat%20website%20portofolio%20Anda"
+              target="_blank" rel="noopener noreferrer" title="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ljriki84@gmail.com" target="_blank"
+              rel="noopener noreferrer" title="Gmail">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/rriickyyyy_r/" target="_blank" rel="noopener noreferrer"
+              title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/ricky-mr" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <p class="copyright">
+            &copy; Copyright <span id="currentYear">2026</span> All rights reserved.<br />
+            Designed for <strong>Ricky Ramadhan, S.Kom.</strong>
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- HERO SECTION (Matches First Reference Image) -->
+      <section id="home" class="hero-section">
+        <div class="hero-slides">
+          <!-- Slide 1 -->
+          <div class="hero-slide active" id="slide-1">
+            <div class="hero-container">
+              <div class="hero-text-col">
+                <span class="hero-badge">LULUSAN S1 TEKNOLOGI INFORMASI (2026)</span>
+                <h2 class="hero-title">Hi! I'm<br />Ricky Ramadhan</h2>
+                <p class="hero-subtitle">
+                  Sarjana Komputer (<strong>S.Kom.</strong>) dengan keahlian di bidang
+                  <a href="#skills">Software Engineering</a>, <a href="#skills">Web Development</a>, serta manajemen
+                  mutu &amp; dokumen industri.
+                </p>
+                <div class="hero-actions">
+                  <a href="#work" class="btn-outline-dark">
+                    VIEW PORTFOLIO <i class="fa-solid fa-briefcase"></i>
+                  </a>
+                  <a href="https://wa.me/62895346456400?text=Halo%20Ricky%20Ramadhan,%20saya%20melihat%20website%20portofolio%20Anda"
+                    target="_blank" rel="noopener noreferrer" class="btn-outline-accent">
+                    HUBUNGI SAYA <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="hero-image-col">
+                <div class="hero-person-wrapper">
+                  <img src="assets/images/ricky-hero.jpg" alt="Ricky Ramadhan, S.Kom. Wisuda" class="hero-person-img" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="hero-slide" id="slide-2">
+            <div class="hero-container">
+              <div class="hero-text-col">
+                <span class="hero-badge">WEB DEVELOPER &amp; DOCUMENT CONTROL</span>
+                <h2 class="hero-title">I am<br />a Developer</h2>
+                <p class="hero-subtitle">
+                  Menggabungkan ketelitian pengalaman <strong>Quality Control &amp; Management Representative</strong>
+                  dengan inovasi teknologi perangkat lunak modern.
+                </p>
+                <div class="hero-actions">
+                  <a href="#experience" class="btn-outline-dark">
+                    LIHAT PENGALAMAN <i class="fa-solid fa-layer-group"></i>
+                  </a>
+                  <a href="#contact" class="btn-outline-accent">
+                    KONTAK LANGSUNG <i class="fa-solid fa-paper-plane"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="hero-image-col">
+                <div class="hero-person-wrapper">
+                  <img src="assets/images/ricky-profile.jpg" alt="Ricky Ramadhan, S.Kom."
+                    class="hero-person-img hero-img-rounded" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dots indicator like in the reference image -->
+        <div class="hero-dots">
+          <button class="hero-dot active" data-slide="0" aria-label="Slide 1"></button>
+          <button class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section">
+        <div class="section-container">
+          <span class="section-meta">TENTANG SAYA</span>
+          <h2 class="section-heading">SIAPA SAYA?</h2>
+
+          <div class="about-grid">
+            <div class="about-photo-card">
+              <img src="assets/images/ricky-profile.jpg" alt="Ricky Ramadhan, S.Kom." />
+              <div class="about-photo-caption">
+                <strong>Ricky Ramadhan, S.Kom.</strong>
+                <span>S1 Teknologi Informasi (Lulusan 2026)</span>
+              </div>
+            </div>
+
+            <div class="about-text">
+              <p class="lead-p">
+                <strong>Halo, saya Ricky Ramadhan, S.Kom.</strong> Saya adalah lulusan Strata-1 (S1) program studi
+                <strong>Teknologi Informasi</strong> tahun 2026 (kelahiran tahun 2002) yang berdomisili di Kabupaten
+                Bogor.
+              </p>
+              <p>
+                Saya memiliki latar belakang unik yang memadukan kemampuan teknis <strong>Software Engineering</strong>
+                dan <strong>Web Development</strong> dengan pengalaman kerja nyata di dunia industri manufaktur sebagai
+                <strong>Operator Produksi, Quality Control (QC), hingga Document Control / Management Representative
+                  (MR)</strong>.
+              </p>
+              <p>
+                Kombinasi keahlian teknologi informasi, penguasaan mendalam aplikasi perkantoran (<strong>Microsoft
+                  Word, Excel, dan PowerPoint</strong>), serta pemahaman sistem manajemen mutu membuat saya mampu
+                membangun solusi digital sekaligus menjaga standar kualitas dan tata kelola dokumen perusahaan dengan
+                presisi tinggi.
+              </p>
+
+              <!-- Personal Bio Details Table -->
+              <div class="bio-info-grid">
+                <div class="bio-item">
+                  <span class="bio-label">Nama Lengkap</span>
+                  <span class="bio-value">Ricky Ramadhan, S.Kom.</span>
+                </div>
+                <div class="bio-item">
+                  <span class="bio-label">Tahun Kelahiran</span>
+                  <span class="bio-value">2002</span>
+                </div>
+                <div class="bio-item">
+                  <span class="bio-label">Pendidikan</span>
+                  <span class="bio-value">S1 Teknologi Informasi (Lulus 2026)</span>
+                </div>
+                <div class="bio-item">
+                  <span class="bio-label">Gelar Akademik</span>
+                  <span class="bio-value">Sarjana Komputer (S.Kom.)</span>
+                </div>
+                <div class="bio-item bio-item-full">
+                  <span class="bio-label">Alamat Domisili</span>
+                  <span class="bio-value">Kp. Pingku Pabuaran, Desa Pingku, Kec. Parung Panjang, Kab. Bogor, Jawa
+                    Barat</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight boxes (Jackson style) -->
+          <div class="about-Service-boxes">
+            <div class="mini-box box-blue">
+              <i class="fa-solid fa-code"></i>
+              <h3>Software Engineering</h3>
+            </div>
+            <div class="mini-box box-red">
+              <i class="fa-solid fa-globe"></i>
+              <h3>Web Development</h3>
+            </div>
+            <div class="mini-box box-yellow">
+              <i class="fa-solid fa-file-shield"></i>
+              <h3>Document &amp; Quality Control</h3>
+            </div>
+            <div class="mini-box box-purple">
+              <i class="fa-solid fa-chart-pie"></i>
+              <h3>Ms. Office Specialist</h3>
+            </div>
+          </div>
+
+          <div class="hire-banner">
+            <div class="hire-banner-text">
+              <h3>Saya siap berkontribusi secara profesional di perusahaan Anda!</h3>
+              <p>Terbuka untuk posisi IT Support, Web Developer, Software Engineer, Admin IT, Quality Control, maupun
+                Document Control / MR.</p>
+            </div>
+            <a href="https://wa.me/62895346456400?text=Halo%20Ricky%20Ramadhan,%20saya%20tertarik%20dengan%20profil%20portofolio%20Anda"
+              target="_blank" rel="noopener noreferrer" class="btn-hire">
+              HUBUNGI VIA WHATSAPP
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES / KEAHLIAN UTAMA SECTION -->
+      <section id="services" class="section section-alt">
+        <div class="section-container">
+          <span class="section-meta">APA YANG SAYA KERJAKAN?</span>
+          <h2 class="section-heading">BIDANG KEAHLIAN &amp; LAYANAN</h2>
+
+          <div class="services-grid">
+            <div class="service-card accent-blue">
+              <div class="service-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3>Software Engineering</h3>
+              <p>Perancangan arsitektur sistem, analisis kebutuhan perangkat lunak, pembuatan alur logika program yang
+                terstruktur, serta pemeliharaan aplikasi agar berjalan efisien dan bebas bug.</p>
+            </div>
+
+            <div class="service-card accent-red">
+              <div class="service-icon"><i class="fa-solid fa-window-maximize"></i></div>
+              <h3>Web Development</h3>
+              <p>Pembuatan website responsif, modern, dan cepat menggunakan HTML5, CSS3, JavaScript, serta sistem
+                informasi berbasis web untuk kebutuhan profil perusahaan maupun aplikasi internal.</p>
+            </div>
+
+            <div class="service-card accent-yellow">
+              <div class="service-icon"><i class="fa-solid fa-folder-tree"></i></div>
+              <h3>Document Control &amp; MR</h3>
+              <p>Pengelolaan dokumen standar operasional prosedur (SOP), instruksi kerja, pengarsipan digital ISO, audit
+                internal, serta pendampingan sistem manajemen mutu sebagai Management Representative.</p>
+            </div>
+
+            <div class="service-card accent-purple">
+              <div class="service-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+              <h3>Quality Control (QC)</h3>
+              <p>Inspeksi kualitas bahan baku, pengawasan proses produksi (In-Process QC), hingga pemeriksaan produk
+                akhir (Outgoing QC) guna memastikan standar mutu produk terpenuhi tanpa cacat.</p>
+            </div>
+
+            <div class="service-card accent-green">
+              <div class="service-icon"><i class="fa-solid fa-table"></i></div>
+              <h3>Ms. Office &amp; Data Reporting</h3>
+              <p>Penyusunan dokumen resmi di Ms. Word, pengolahan rumus &amp; laporan analitik kompleks di Ms. Excel
+                (VLOOKUP, Pivot Table, Dashboard), serta presentasi eksekutif di Ms. PowerPoint.</p>
+            </div>
+
+            <div class="service-card accent-indigo">
+              <div class="service-icon"><i class="fa-solid fa-industry"></i></div>
+              <h3>Manajemen Produksi</h3>
+              <p>Pemahaman langsung alur lantai produksi pabrik, pencapaian target harian, penerapan budaya kerja 5R/5S,
+                serta koordinasi tim lintas departemen untuk kelancaran operasional.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="section">
+        <div class="section-container">
+          <span class="section-meta">KEMAMPUAN TEKNIS &amp; PROFESIONAL</span>
+          <h2 class="section-heading">KEAHLIAN SAYA</h2>
+          <p class="section-desc">
+            Perpaduan kompetensi di bidang Teknologi Informasi, Administrasi Perkantoran, dan Manajemen Operasional
+            Pabrik yang telah teruji melalui pendidikan akademik dan pengalaman kerja.
+          </p>
+
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Web Developer (HTML, CSS, JS, Web App)</span>
+                <span class="skill-pct color-blue">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill fill-blue" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Software Engineering &amp; System Analysis</span>
+                <span class="skill-pct color-red">88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill fill-red" style="width: 88%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Microsoft Word (Dokumen SOP &amp; Administrasi)</span>
+                <span class="skill-pct color-yellow">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill fill-yellow" style="width: 95%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Microsoft Excel (Data Analysis, Formula &amp; Report)</span>
+                <span class="skill-pct color-purple">92%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill fill-purple" style="width: 92%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Microsoft PowerPoint (Presentasi Manajemen)</span>
+                <span class="skill-pct color-green">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill fill-green" style="width: 90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-header">
+                <span>Document Control, ISO &amp; Quality Control</span>
+                <span class="skill-pct color-indigo">92%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill fill-indigo" style="width: 92%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION SECTION -->
+      <section id="education" class="section section-alt">
+        <div class="section-container">
+          <span class="section-meta">RIWAYAT AKADEMIK</span>
+          <h2 class="section-heading">PENDIDIKAN</h2>
+
+          <div class="accordion">
+            <div class="accordion-item active">
+              <button class="accordion-header">
+                <span>SARJANA (S1) TEKNOLOGI INFORMASI — GELAR S.KOM. (LULUS 2026)</span>
+                <i class="fa-solid fa-minus"></i>
+              </button>
+              <div class="accordion-body">
+                <div class="edu-detail">
+                  <div class="edu-badge">Lulusan Tahun 2026</div>
+                  <p>
+                    Menyelesaikan pendidikan Strata-1 (S1) pada Program Studi <strong>Teknologi Informasi</strong> dan
+                    meraih gelar <strong>Sarjana Komputer (S.Kom.)</strong>. Selama masa perkuliahan, mendalami
+                    pengembangan perangkat lunak (<em>Software Engineering</em>), pemrograman web (<em>Web
+                      Development</em>), basis data, analisis perancangan sistem informasi, serta tata kelola proyek TI.
+                  </p>
+                  <ul>
+                    <li>Fokus Keahlian: Rekayasa Perangkat Lunak, Pengembangan Aplikasi Web, dan Manajemen Sistem
+                      Informasi.</li>
+                    <li>Aktif memadukan ilmu akademik dengan praktik langsung di lingkungan kerja industri.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-header">
+                <span>PELATIHAN &amp; PENGEMBANGAN KOMPETENSI PROFESIONAL</span>
+                <i class="fa-solid fa-plus"></i>
+              </button>
+              <div class="accordion-body">
+                <div class="edu-detail">
+                  <p>
+                    Terus mengembangkan keahlian praktis guna menunjang kinerja di bidang Teknologi Informasi maupun
+                    Manajemen Operasional:
+                  </p>
+                  <ul>
+                    <li><strong>Administrasi &amp; Pengolahan Data Perkantoran:</strong> Penguasaan lanjutan Microsoft
+                      Word, Microsoft Excel untuk pelaporan produksi/QC, dan Microsoft PowerPoint.</li>
+                    <li><strong>Sistem Manajemen Mutu &amp; Document Control:</strong> Pemahaman tata kelola dokumen
+                      standar perusahaan, pengendalian rekaman mutu, serta koordinasi audit sebagai Management
+                      Representative (MR).</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE SECTION -->
+      <section id="experience" class="section">
+        <div class="section-container">
+          <span class="section-meta">REKAM JEJAK KARIR</span>
+          <h2 class="section-heading">PENGALAMAN KERJA</h2>
+
+          <div class="timeline">
+            <!-- Exp 1 -->
+            <div class="timeline-item">
+              <div class="timeline-icon bg-blue">
+                <i class="fa-solid fa-file-signature"></i>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Document Control &amp; Management Representative (MR)</h3>
+                  <span class="timeline-tag">Manajemen Mutu &amp; Dokumen</span>
+                </div>
+                <p>
+                  Bertanggung jawab dalam mengendalikan seluruh dokumen sistem manajemen mutu perusahaan agar selalu
+                  mutakhir, terdistribusi dengan tepat, dan mudah ditelusuri.
+                </p>
+                <ul class="timeline-list">
+                  <li>Menyusun, merevisi, mendistribusikan, dan mengarsipkan dokumen SOP, Instruksi Kerja (IK), serta
+                    formulir standar perusahaan.</li>
+                  <li>Bertindak sebagai <strong>Management Representative (MR)</strong> dalam mengoordinasikan penerapan
+                    sistem manajemen mutu lintas departemen dan pelaksanaan audit internal/eksternal.</li>
+                  <li>Mengelola pelaporan data berkala dan presentasi tinjauan manajemen menggunakan Microsoft Word,
+                    Excel, dan PowerPoint secara rapi dan akurat.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Exp 2 -->
+            <div class="timeline-item">
+              <div class="timeline-icon bg-red">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Quality Control (QC)</h3>
+                  <span class="timeline-tag">Pengendalian Mutu Pabrik</span>
+                </div>
+                <p>
+                  Melaksanakan pengawasan dan pemeriksaan kualitas produk pada setiap tahapan proses guna memastikan
+                  produk sesuai dengan standar spesifikasi perusahaan dan pelanggan.
+                </p>
+                <ul class="timeline-list">
+                  <li>Melakukan pengecekan bahan baku datang (Incoming), proses berjalan (In-Process), dan barang jadi
+                    (Final Inspection).</li>
+                  <li>Mencatat temuan ketidaksesuaian (Reject / NG), menganalisis akar masalah kualitas, serta menyusun
+                    laporan harian/bulanan QC di Microsoft Excel.</li>
+                  <li>Bekerja sama dengan tim produksi untuk tindakan perbaikan dan pencegahan (Corrective &amp;
+                    Preventive Action).</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Exp 3 -->
+            <div class="timeline-item">
+              <div class="timeline-icon bg-yellow">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <div class="timeline-content">
+                <div class="timeline-header">
+                  <h3>Staf / Operator Produksi Pabrik</h3>
+                  <span class="timeline-tag">Operasional Manufaktur</span>
+                </div>
+                <p>
+                  Menjalankan kegiatan operasional produksi di pabrik dengan disiplin tinggi, menjaga efisiensi kerja,
+                  serta mematuhi prosedur keselamatan dan kesehatan kerja (K3).
+                </p>
+                <ul class="timeline-list">
+                  <li>Mengoperasikan peralatan produksi sesuai Instruksi Kerja (IK) untuk mencapai target output harian
+                    secara tepat waktu.</li>
+                  <li>Menjaga kebersihan dan kerapihan area kerja melalui penerapan budaya 5R (Ringkas, Rapi, Resik,
+                    Rawat, Rajin).</li>
+                  <li>Melakukan pencatatan hasil produksi harian dan berkoordinasi aktif dengan bagian QC serta gudang.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK / PORTFOLIO SECTION -->
+      <section id="work" class="section section-alt">
+        <div class="section-container">
+          <span class="section-meta">KARYA &amp; PENCAPAIAN</span>
+          <h2 class="section-heading">PROYEK &amp; PORTOFOLIO</h2>
+
+          <div class="work-grid">
+            <div class="work-card">
+              <div class="work-card-top bg-grad-blue">
+                <i class="fa-solid fa-globe"></i>
+                <span class="work-cat">Web Development</span>
+              </div>
+              <div class="work-card-body">
+                <h3>Sistem Informasi Pengendalian Dokumen Digital (E-Doc Control)</h3>
+                <p>Rancangan aplikasi berbasis web untuk mempermudah pencarian, pengarsipan, dan monitoring revisi SOP
+                  serta dokumen ISO perusahaan secara terpusat.</p>
+                <div class="work-tags">
+                  <span>HTML5/CSS3</span>
+                  <span>JavaScript</span>
+                  <span>Database</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-card">
+              <div class="work-card-top bg-grad-red">
+                <i class="fa-solid fa-chart-line"></i>
+                <span class="work-cat">Quality &amp; Data Reporting</span>
+              </div>
+              <div class="work-card-body">
+                <h3>Dashboard Monitoring Quality Control &amp; Produksi</h3>
+                <p>Template sistem pelaporan terintegrasi berbasis Microsoft Excel dan Web untuk memantau tren defect
+                  produk, efisiensi produksi, dan laporan bulanan MR.</p>
+                <div class="work-tags">
+                  <span>Ms. Excel</span>
+                  <span>Data Analytics</span>
+                  <span>QC Report</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-card">
+              <div class="work-card-top bg-grad-purple">
+                <i class="fa-solid fa-user-tie"></i>
+                <span class="work-cat">Personal Branding</span>
+              </div>
+              <div class="work-card-body">
+                <h3>Website Portofolio Profesional Ricky Ramadhan, S.Kom.</h3>
+                <p>Website portofolio responsif bertema minimalis putih bersih untuk menampilkan profil akademik,
+                  pengalaman kerja industri, serta integrasi kontak langsung.</p>
+                <div class="work-tags">
+                  <span>Responsive UI</span>
+                  <span>Clean White Theme</span>
+                  <span>GitHub Pages</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-card">
+              <div class="work-card-top bg-grad-yellow">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <span class="work-cat">Management Representative</span>
+              </div>
+              <div class="work-card-body">
+                <h3>Standardisasi Dokumen SOP &amp; Instruksi Kerja Manufaktur</h3>
+                <p>Penyusunan tata kelola dokumen mutu yang terstruktur, mulai dari alur produksi, standar pemeriksaan
+                  QC, hingga materi presentasi tinjauan manajemen.</p>
+                <div class="work-tags">
+                  <span>Ms. Word</span>
+                  <span>Ms. PowerPoint</span>
+                  <span>ISO Standard</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOBBIES & INTERESTS SECTION -->
+      <section id="hobbies" class="section">
+        <div class="section-container">
+          <span class="section-meta">AKTIVITAS DI LUAR PEKERJAAN</span>
+          <h2 class="section-heading">HOBI &amp; MINAT</h2>
+
+          <div class="hobbies-grid">
+            <div class="hobby-card">
+              <div class="hobby-icon"><i class="fa-solid fa-compass"></i></div>
+              <div class="hobby-info">
+                <h3>Traveling &amp; Eksplorasi</h3>
+                <p>
+                  Menjelajahi tempat-tempat baru, menikmati suasana alam, dan mengenal budaya lokal di berbagai daerah.
+                  Traveling membantu saya menyegarkan pikiran, membangun kemampuan adaptasi yang cepat, serta memperluas
+                  sudut pandang.
+                </p>
+              </div>
+            </div>
+
+            <div class="hobby-card">
+              <div class="hobby-icon"><i class="fa-solid fa-desktop"></i></div>
+              <div class="hobby-info">
+                <h3>PC Gaming &amp; Antusias Teknologi</h3>
+                <p>
+                  Bermain game PC yang mengasah strategi, ketangkasan berpikir cepat, pemecahan masalah (<em>problem
+                    solving</em>), dan koordinasi tim, sekaligus mengikuti perkembangan perangkat keras serta teknologi
+                  komputer terkini.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="section section-alt">
+        <div class="section-container">
+          <span class="section-meta">MARI TERHUBUNG</span>
+          <h2 class="section-heading">KONTAK SAYA</h2>
+          <p class="section-desc">
+            Klik salah satu kartu kontak di bawah ini (WhatsApp, Gmail, atau Instagram) untuk langsung terhubung ke akun
+            resmi saya, atau kirimkan pesan melalui formulir.
+          </p>
+
+          <div class="contact-layout">
+            <!-- Direct Clickable Contact Cards -->
+            <div class="contact-cards">
+              <a href="https://wa.me/62895346456400?text=Halo%20Ricky%20Ramadhan,%20saya%20menghubungi%20Anda%20melalui%20website%20portofolio."
+                target="_blank" rel="noopener noreferrer" class="contact-item-card card-wa">
+                <div class="contact-icon">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">WhatsApp (Klik untuk Chat)</span>
+                  <strong>0895-3464-56400</strong>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+              </a>
+
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ljriki84@gmail.com&su=Pesan%20dari%20Website%20Portofolio%20Ricky%20Ramadhan"
+                target="_blank" rel="noopener noreferrer" class="contact-item-card card-gmail">
+                <div class="contact-icon">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">Gmail (Klik untuk Kirim Email)</span>
+                  <strong>ljriki84@gmail.com</strong>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+              </a>
+
+              <a href="https://www.instagram.com/rriickyyyy_r/" target="_blank" rel="noopener noreferrer"
+                class="contact-item-card card-ig">
+                <div class="contact-icon">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">Instagram (Klik untuk Buka Profil)</span>
+                  <strong>@rriickyyyy_r</strong>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+              </a>
+
+              <a href="https://www.google.com/maps/search/?api=1&query=Desa+Pingku+Kecamatan+Parung+Panjang+Kabupaten+Bogor"
+                target="_blank" rel="noopener noreferrer" class="contact-item-card card-loc">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-text">
+                  <span class="contact-label">Alamat Domisili</span>
+                  <strong>Kp. Pingku Pabuaran, Desa Pingku, Kec. Parung Panjang, Kab. Bogor</strong>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square contact-arrow"></i>
+              </a>
+            </div>
+
+            <!-- Quick Message Form (Redirects to WA or Email) -->
+            <div class="contact-form-box">
+              <h3>Kirim Pesan Cepat</h3>
+              <p>Isi pesan di bawah ini dan pilih ingin mengirimkannya langsung via WhatsApp atau Gmail.</p>
+              <form id="quickContactForm">
+                <div class="form-group">
+                  <input type="text" id="senderName" placeholder="Nama Anda / Perusahaan" required />
+                </div>
+                <div class="form-group">
+                  <input type="text" id="senderSubject" placeholder="Subjek / Keperluan" required />
+                </div>
+                <div class="form-group">
+                  <textarea id="senderMessage" rows="4" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                </div>
+                <div class="form-buttons">
+                  <button type="submit" class="btn-send-wa">
+                    <i class="fa-brands fa-whatsapp"></i> Kirim ke WhatsApp
+                  </button>
+                  <button type="button" id="sendEmailBtn" class="btn-send-gmail">
+                    <i class="fa-regular fa-envelope"></i> Kirim ke Gmail
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
